@@ -5,7 +5,7 @@ var map = L.map('map').setView([43.727203, -79.381752], 12);
 // Add tile layer
 L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', { maxZoom: 19, attribution: '© OpenStreetMap' }).addTo(map);
 // Define static start/end (Toronto City Hall)
-var startPoint = {lat: 43.6532, lng: -79.3832};
+var startPoint = {lat: 43.727203, lng: -79.381752};
 var startMarker = L.circleMarker([startPoint.lat, startPoint.lng], {
     radius: 8,
     color: 'black',
