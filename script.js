@@ -1,7 +1,7 @@
 // script.js – Game script with leaderboard and user info
 
 // Initialise the Leaflet map
-var map = L.map('map').setView([43.7, -79.4], 10);
+var map = L.map('map').setView([43.727203, -79.381752], 12);
 // Add tile layer
 L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', { maxZoom: 19, attribution: '© OpenStreetMap' }).addTo(map);
 // Define static start/end (Toronto City Hall)
